@@ -17,7 +17,7 @@ pipeline {
     }
 
     post {
-        success {
+        always {
             script {
                 if (env.BRANCH_NAME == 'dev') {
                     // Push to dev repo in Docker Hub
