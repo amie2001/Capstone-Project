@@ -16,20 +16,4 @@ pipeline {
         }
     }
 
-    post {
-        always {
-            script {
-                if (env.GIT_BRANCH == 'dev') {
-                    // Push to dev repo in Docker Hub
-                    sh 'export DOCKER_CAPSTONE_IMAGE=pavi2244/dev:latest'
-                    sh './deploy.sh'
-                } else if (env.GIT_BRANCH == 'main') {
-                    // Push to prod repo in Docker Hub
-                    sh 'export DOCKER_CAPSTONE_IMAGE=pavi2244/prod:latest'
-                    sh './deploy.sh'
-                }
-            }
-        }
-    }
-}
-
+   )
