@@ -1,12 +1,5 @@
 pipeline {
     agent any
-
-    environment {
-        DOCKER_USERNAME = credentials('DOCKER_USERNAME')
-        DOCKER_PASSWORD = credentials('DOCKER_PASSWORD')
-        DOCKER_CAPSTONE_IMAGE = 'pavi2244/capstone:latest'
-    }
-
     stages {
         stage ('Changing the file permission') {
             steps {
