@@ -1,9 +1,4 @@
 
-Yes, you can share screenshots via Google Drive — and I can now access your folder. I’ll go ahead and write a complete `README.md` for your **Capstone Project** using the details you gave and referencing the screenshots in the folder. Give me a moment to organize everything into one clean and human-readable README file.
-
-Here’s a full `README.md` file for your **Capstone Project** — it's structured step-by-step, includes context, tool usage, and screenshot references based on your Drive link.
-
----
 
 ```markdown
 # 🚀 Capstone Project: Application Deployment (Production-Ready)
@@ -182,5 +177,3 @@ terraform destroy     # if using IAC for provisioning (optional)
 > 🚀 This Capstone project brings together the full DevOps lifecycle in one compact, production-ready implementation!
 
 ```
-
-Let me know if you want the markdown converted into PDF or want the image references hyperlinked directly from Drive.
