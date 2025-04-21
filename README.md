@@ -138,7 +138,7 @@ git push origin dev
 ### 📈 8. Monitoring Setup
 
 Configured Prometheus to scrape app metrics and Grafana to visualize them. 
-Alerts triggered via [Alertmanager/Email/Webhook] on app downtime.
+Alerts are triggered via Alertmanager, using email/webhook notifications when the app goes down.
 
 ![ss16](https://github.com/user-attachments/assets/0815cd07-67b2-439a-8dfd-b5d751371946)
 
