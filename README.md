@@ -142,6 +142,11 @@ git push origin dev
   - Continuously ping the app endpoint.
   - Send alerts when the app goes down.
 
+![ss16](https://github.com/user-attachments/assets/0815cd07-67b2-439a-8dfd-b5d751371946)
+
+
+![ss19](https://github.com/user-attachments/assets/e07d7961-863e-4533-9e66-e116ee6e9c5a)
+
 
 
 ---
@@ -175,6 +180,5 @@ terraform destroy     # if using IAC for provisioning (optional)
 
 ---
 
-> 🚀 This Capstone project brings together the full DevOps lifecycle in one compact, production-ready implementation!
+🚀 This Capstone project brings together the full DevOps lifecycle in one compact, production-ready implementation!
 
-```
