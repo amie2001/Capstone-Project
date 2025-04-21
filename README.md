@@ -12,7 +12,7 @@ This project demonstrates the end-to-end deployment of a **React application** i
 ## 📂 Repository Details
 
 - 🔗 Application GitHub Repo: [devops-build (original)](https://github.com/sriram-R-krishnan/devops-build)
-- 🔗 Capstone GitHub Repo (yours): [amie2001/devops-build](https://github.com/amie2001/devops-build.git)
+- 🔗 Capstone GitHub Repo (yours): [amie2001/devops-build](https://github.com/amie2001/Capstone-Project.git)
 - 📸 Screenshots Folder: [Google Drive Folder](https://drive.google.com/drive/folders/1QW2kKFOZbEfRoiAokez2FD08JBPP92KV?usp=drive_link)
 
 ---
@@ -49,8 +49,8 @@ This project demonstrates the end-to-end deployment of a **React application** i
 ### ✅ 1. Clone & Setup
 
 ```bash
-git clone https://github.com/amie2001/devops-build.git
-cd devops-build
+git clone [https://github.com/amie2001/Capstone-Project)]
+cd Capstone-Project
 ```
 
 ### 🐳 2. Dockerize the React App
@@ -62,9 +62,10 @@ cd devops-build
 bash build.sh
 ```
 
-📌 *Script builds and tags image as `pavi2244/capstone`*
+📌 *Script builds and tags image as `pavi2244/react-app`*
 
-**🖼 Screenshot**: `docker-build-success.png`
+![image](https://github.com/user-attachments/assets/3e71d255-b29f-4b67-a411-961060dfbf9d)
+
 
 ---
 
@@ -77,8 +78,6 @@ bash build.sh
 bash deploy.sh
 ```
 
-**🖼 Screenshot**: `docker-compose-up.png`
-
 ---
 
 ### 🛳 4. Push to Docker Hub
@@ -89,7 +88,8 @@ bash deploy.sh
 
 - Images are tagged and pushed from scripts and Jenkins jobs.
 
-**🖼 Screenshot**: `dockerhub-repos.png`
+![ss11](https://github.com/user-attachments/assets/62aba363-81bb-4cba-99dd-0f11154ed337)
+
 
 ---
 
@@ -115,11 +115,9 @@ git push origin dev
   - **master** → pushes to `prod` repo on merge.
 
 - Webhooks enabled for auto-trigger.
+- 
+![ss8](https://github.com/user-attachments/assets/744f4e48-c1de-4578-8d06-516f1789b045)
 
-**🖼 Screenshots**:
-- `jenkins-build-dev.png`
-- `jenkins-build-prod.png`
-- `jenkins-branch-config.png`
 
 ---
 
@@ -132,24 +130,30 @@ git push origin dev
 
 - Application successfully deployed and accessible via public DNS.
 
-**🖼 Screenshot**: `aws-instance-public.png`
+![ss12](https://github.com/user-attachments/assets/da37e82d-8506-4d50-8423-01e43cdc9863)
+
 
 ---
 
 ### 📈 8. Monitoring Setup
 
-- Open-source monitoring tool used (e.g., Uptime Kuma or similar).
+- Open-source monitoring tool used (prometheus and grafana).
 - Configured to:
   - Continuously ping the app endpoint.
   - Send alerts when the app goes down.
 
-**🖼 Screenshot**: `monitoring-alert.png`
+
 
 ---
 
 ## 🌐 Final Result
 
 Application running successfully on an AWS-hosted server on **port 80** with CI/CD, monitoring, and private/public Docker image handling.
+
+![ss14](https://github.com/user-attachments/assets/a7ab5f27-9e4d-4dd4-ac09-bad4d2a2731e)
+
+
+
 
 ---
 
