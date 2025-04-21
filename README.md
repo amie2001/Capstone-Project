@@ -1,6 +1,3 @@
-
-
-```markdown
 # 🚀 Capstone Project: Application Deployment (Production-Ready)
 
 This project demonstrates the end-to-end deployment of a **React application** into a production-ready state using Docker, Jenkins, AWS, and open-source monitoring tools. Everything — from containerization to CI/CD automation and deployment — is handled using CLI tools and scripts.
