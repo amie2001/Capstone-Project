@@ -11,8 +11,8 @@ This project demonstrates the end-to-end deployment of a **React application** i
 
 ## 📂 Repository Details
 
-- 🔗 Application GitHub Repo: [devops-build (original)](https://github.com/sriram-R-krishnan/devops-build)
-- 🔗 Capstone GitHub Repo (yours): [amie2001/devops-build](https://github.com/amie2001/Capstone-Project.git)
+- 🔗 Original Application Repo: [sriram-R-krishnan/devops-build](https://github.com/sriram-R-krishnan/devops-build)
+- 🔗 My Capstone Repo: [amie2001/Capstone-Project](https://github.com/amie2001/Capstone-Project)
 - 📸 Screenshots Folder: [Google Drive Folder](https://drive.google.com/drive/folders/1QW2kKFOZbEfRoiAokez2FD08JBPP92KV?usp=drive_link)
 
 ---
@@ -49,7 +49,7 @@ This project demonstrates the end-to-end deployment of a **React application** i
 ### ✅ 1. Clone & Setup
 
 ```bash
-git clone [https://github.com/amie2001/Capstone-Project)]
+git clone https://github.com/amie2001/Capstone-Project 
 cd Capstone-Project
 ```
 
@@ -137,10 +137,8 @@ git push origin dev
 
 ### 📈 8. Monitoring Setup
 
-- Open-source monitoring tool used (prometheus and grafana).
-- Configured to:
-  - Continuously ping the app endpoint.
-  - Send alerts when the app goes down.
+Configured Prometheus to scrape app metrics and Grafana to visualize them. 
+Alerts triggered via [Alertmanager/Email/Webhook] on app downtime.
 
 ![ss16](https://github.com/user-attachments/assets/0815cd07-67b2-439a-8dfd-b5d751371946)
 
